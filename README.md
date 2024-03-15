@@ -1,0 +1,1 @@
+此项目是在基于Mirai核心制作的SpringBoot上进行开发的qq机器人，对接chatgpt，记录操作日等等功能
