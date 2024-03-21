@@ -2,13 +2,11 @@ package com.onefool.strategy;
 
 import com.onefool.aopLog.Log;
 import com.onefool.common.GroupMessageQueue;
-import com.onefool.pojo.GroupEventPojo;
+import com.onefool.dto.GroupEventPojo;
 import net.itbaima.robot.event.RobotListenerHandler;
-import net.mamoe.mirai.contact.Contact;
 import net.mamoe.mirai.contact.UserOrBot;
 import net.mamoe.mirai.event.events.NudgeEvent;
 import org.aspectj.lang.JoinPoint;
-import org.aspectj.lang.Signature;
 import org.aspectj.lang.reflect.MethodSignature;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -17,7 +15,6 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 
-import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
 import java.time.LocalDateTime;
 

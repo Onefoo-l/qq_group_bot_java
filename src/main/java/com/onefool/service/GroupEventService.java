@@ -1,7 +1,7 @@
 package com.onefool.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.onefool.pojo.GroupEventPojo;
+import com.onefool.dto.GroupEventPojo;
 
 import java.util.List;
 

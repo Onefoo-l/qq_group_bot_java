@@ -1,6 +1,6 @@
 package com.onefool.common;
 
-import com.onefool.pojo.GroupEventPojo;
+import com.onefool.dto.GroupEventPojo;
 
 import java.util.concurrent.LinkedBlockingQueue;
 

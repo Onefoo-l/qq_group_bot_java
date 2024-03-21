@@ -2,18 +2,14 @@ package com.onefool.strategy;
 
 import com.onefool.aopLog.Log;
 import com.onefool.common.GroupMessageQueue;
-import com.onefool.pojo.GroupEventPojo;
-import jakarta.annotation.Resource;
-import net.itbaima.robot.event.RobotListenerHandler;
+import com.onefool.dto.GroupEventPojo;
 import net.mamoe.mirai.contact.Group;
 import net.mamoe.mirai.event.events.GroupMessageEvent;
 import net.mamoe.mirai.message.data.*;
 import org.aspectj.lang.JoinPoint;
-import org.aspectj.lang.Signature;
 import org.aspectj.lang.reflect.MethodSignature;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 
 import java.lang.reflect.Method;
 import java.time.Instant;

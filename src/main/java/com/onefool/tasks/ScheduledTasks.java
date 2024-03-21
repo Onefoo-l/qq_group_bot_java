@@ -2,10 +2,9 @@ package com.onefool.tasks;
 
 import cn.hutool.core.collection.CollectionUtil;
 import com.onefool.common.GroupMessageQueue;
-import com.onefool.pojo.GroupEventPojo;
+import com.onefool.dto.GroupEventPojo;
 import com.onefool.service.GroupEventService;
 import jakarta.annotation.Resource;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 

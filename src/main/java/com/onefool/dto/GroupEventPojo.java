@@ -1,4 +1,4 @@
-package com.onefool.pojo;
+package com.onefool.dto;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;

@@ -1,7 +1,7 @@
 package com.onefool.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.onefool.pojo.GroupEventPojo;
+import com.onefool.dto.GroupEventPojo;
 
 /**
  * @Author linjiawei
