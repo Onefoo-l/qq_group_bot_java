@@ -108,9 +108,9 @@ public class GroupRobotsListener extends MessageListener{
                 var f = new File(path + "\\foot" + (new Random().nextInt(2) + 1) + ".jpg");
                 Image image = net.mamoe.mirai.contact.Contact.uploadImage(event.getSubject(), f);
                 event.getGroup().sendMessage(image);
-            } else if (senderString.contains("白丝")) {
+            } else if (senderString.startsWith("白丝")) {
                 event.getGroup().sendMessage("暂时没有这个资源");
-            } else if (senderString.contains("玉足")) {
+            } else if (senderString.startsWith("玉足")) {
                 var f = new File(path + "\\foot" + (new Random().nextInt(4) + 1) + ".jpg");
                 Image image = net.mamoe.mirai.contact.Contact.uploadImage(event.getSubject(), f);
                 event.getGroup().sendMessage(image);
